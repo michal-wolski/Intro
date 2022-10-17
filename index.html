@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
     <link
       rel="icon"
       type="image/png"
@@ -18,7 +21,8 @@
     <header>
       <nav>
         <img src="./images/logo.svg" alt="logo" />
-        <ul>
+        <img src="./images/icon-menu.svg" alt="Hamburger menu icon" />
+        <!-- <ul>
           <li>Features</li>
           <li>Company</li>
           <li>Careers</li>
@@ -27,26 +31,32 @@
         <ul>
           <li>Login</li>
           <li>Register</li>
-        </ul>
+        </ul> -->
       </nav>
     </header>
+    <section>
+      <picture>
+        <source
+          media="(min-width: 750px)"
+          srcset="./images/image-hero-desktop.png"
+          sizes="" />
+        <img src="./images/image-hero-mobile.png" alt="Men carring laptop"
+      /></picture>
+    </section>
     <main>
-      <section>
+      <section class="container">
         <h1>Make remote work</h1>
         <p>
           Get your team in sync,np matter your location Streamlink processes,
           create team rituals, and watch productive soar
         </p>
-        <button>Learn more</button>
+        <button class="btn_learn">Learn more</button>
         <img src="./images/client-databiz.svg" alt="Logo databiz" />
         <img src="./images/client-audiophile.svg" alt="Logo audiophile" />
         <img src="./images/client-meet.svg" alt="Logo meet" /><img
           src="./images/client-maker.svg"
           alt="Logo Maker"
         />
-      </section>
-      <section>
-        <img src="./images/image-hero-mobile.png" alt="Men carring a laptop" />
       </section>
     </main>
   </body>

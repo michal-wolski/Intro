@@ -1,0 +1,28 @@
+* {
+  font-family: "Epilogue", sans-serif;
+  list-style: none;
+  background-color: var(--White);
+}
+:root {
+  --White: hsl(0, 0%, 98%);
+  --Gray: hsl(0, 0%, 41%);
+  --Black: hsl(0, 0%, 8%);
+}
+.container {
+  width: 350px;
+  margin: 0 auto;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+
+  @media (min-width: 750px) {
+    max-width: 1200px;
+  }
+}
