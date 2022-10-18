@@ -9,7 +9,7 @@
   --Black: hsl(0, 0%, 8%);
 }
 .container {
-  width: 350px;
+  width: 390px;
   margin: 0 auto;
   align-items: center;
 }
@@ -17,12 +17,31 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-.img {
+.img__main--mobile {
   width: 100%;
-  max-width: 750px;
+  max-width: 390px;
   height: auto;
 
-  @media (min-width: 750px) {
+  /* @media (min-width: 750px) {
     max-width: 1200px;
-  }
+  } */
+}
+.main__title {
+  font-weight: bold;
+  width: 500px;
+}
+.btn__menu {
+  border-style: none;
+}
+.main__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.btn__learn {
+  max-width: 200px;
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 10px;
 }

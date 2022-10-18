@@ -14,43 +14,41 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script src="./index.js"></script>
 
     <title>Intro Side</title>
   </head>
   <body>
-    <header>
+    <header class="container">
       <nav>
-        <img src="./images/logo.svg" alt="logo" />
-        <img src="./images/icon-menu.svg" alt="Hamburger menu icon" />
-        <!-- <ul>
-          <li>Features</li>
-          <li>Company</li>
-          <li>Careers</li>
-          <li>About</li>
-        </ul>
-        <ul>
-          <li>Login</li>
-          <li>Register</li>
-        </ul> -->
+        <img src="./images/logo.svg" alt="Logo" />
+        <button class="btn__menu" type="submit">
+          <img src="./images/icon-menu.svg" alt="" srcset="" />
+        </button>
       </nav>
     </header>
-    <section>
+    <section class="container">
       <picture>
         <source
           media="(min-width: 750px)"
           srcset="./images/image-hero-desktop.png"
           sizes="" />
-        <img src="./images/image-hero-mobile.png" alt="Men carring laptop"
+        <img
+          class="img__main--mobile"
+          src="./images/image-hero-mobile.png"
+          alt="Men carring laptop"
       /></picture>
     </section>
     <main>
       <section class="container">
-        <h1>Make remote work</h1>
-        <p>
-          Get your team in sync,np matter your location Streamlink processes,
-          create team rituals, and watch productive soar
-        </p>
-        <button class="btn_learn">Learn more</button>
+        <div class="main__section">
+          <h1 class="main__title">Make remote work</h1>
+          <p>
+            Get your team in sync,np matter your location Streamlink processes,
+            create team rituals, and watch productive soar
+          </p>
+          <button class="btn__learn">Learn more</button>
+        </div>
         <img src="./images/client-databiz.svg" alt="Logo databiz" />
         <img src="./images/client-audiophile.svg" alt="Logo audiophile" />
         <img src="./images/client-meet.svg" alt="Logo meet" /><img
