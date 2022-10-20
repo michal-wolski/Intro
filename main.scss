@@ -1,68 +1,65 @@
 * {
   font-family: "Epilogue", sans-serif;
   list-style: none;
-  background-color: var(--White);
+  background-color: $White;
 }
+p {
+  font-size: 18px;
+}
+$White: hsl(0, 0%, 98%);
+$Gray: hsl(0, 0%, 41%);
+$Black: hsl(0, 0%, 8%);
 
 .container {
   width: 390px;
   margin: 0 auto;
   align-items: center;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
 .img__main--mobile {
   width: 100%;
   max-width: 390px;
   height: auto;
 }
-
 .main__title {
   font-size: 38px;
 }
-
 .main__text {
   text-align: center;
   padding: 0 20px;
   margin-bottom: 20px;
   color: var(--Gray);
 }
-
 .btn__menu {
   border-style: none;
 }
-
 .main__section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-}
-@media (min-width: 750px) {
-  .main__section {
+
+  @media (min-width: 750px) {
     flex-direction: row-reverse;
   }
 }
-
 .btn__learn {
-  background-color: hsl(0deg, 0%, 8%);
-  color: hsl(0deg, 0%, 98%);
+  background-color: $Black;
+  color: $White;
   max-width: 200px;
   padding: 0 20px;
   height: 40px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
 /* .main__logos {
   align-content: center;
 } */
 .main__logo {
   width: 70px;
   padding-right: 20px;
-}/*# sourceMappingURL=main.css.map */
+}

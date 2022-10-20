@@ -27,21 +27,19 @@
         </button>
       </nav>
     </header>
-    <section class="container">
-      <picture>
-        <source
-          media="(min-width: 750px)"
-          srcset="./images/image-hero-desktop.png"
-          sizes="" />
-        <img
-          class="img__main--mobile"
-          src="./images/image-hero-mobile.png"
-          alt="Men carring laptop"
-      /></picture>
-    </section>
     <main>
-      <section class="container">
-        <div class="main__section">
+      <section class="main__section container">
+        <div class="container">
+          <picture>
+            <source
+              media="(min-width: 750px)"
+              srcset="./images/image-hero-desktop.png"
+            />
+
+            <img src="./images/image-hero-mobile.png" style="width: auto" />
+          </picture>
+        </div>
+        <div class="">
           <h1 class="main__title">Make remote work</h1>
           <p class="main__text">
             Get your team in sync,np matter your location Streamlink processes,
@@ -49,24 +47,24 @@
           </p>
           <button class="btn__learn">Learn more</button>
         </div>
-        <div class="main__logos">
-          <img
-            class="main__logo"
-            src="./images/client-databiz.svg"
-            alt="Logo databiz"
-          />
-          <img
-            class="main__logo"
-            src="./images/client-audiophile.svg"
-            alt="Logo audiophile"
-          />
-          <img
-            class="main__logo"
-            src="./images/client-meet.svg"
-            alt="Logo meet"
-          /><img src="./images/client-maker.svg" alt="Logo Maker" />
-        </div>
       </section>
+      <div class="container main__logos">
+        <img
+          class="main__logo"
+          src="./images/client-databiz.svg"
+          alt="Logo databiz"
+        />
+        <img
+          class="main__logo"
+          src="./images/client-audiophile.svg"
+          alt="Logo audiophile"
+        />
+        <img
+          class="main__logo"
+          src="./images/client-meet.svg"
+          alt="Logo meet"
+        /><img src="./images/client-maker.svg" alt="Logo Maker" />
+      </div>
     </main>
   </body>
 </html>
