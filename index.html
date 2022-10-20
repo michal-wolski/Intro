@@ -14,7 +14,6 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <script src="./index.js"></script>
 
     <title>Intro Side</title>
   </head>
@@ -36,35 +35,38 @@
               srcset="./images/image-hero-desktop.png"
             />
 
-            <img src="./images/image-hero-mobile.png" style="width: auto" />
+            <img
+              class="main__image--desktop"
+              src="./images/image-hero-mobile.png"
+            />
           </picture>
         </div>
-        <div class="">
+        <div class="main__side">
           <h1 class="main__title">Make remote work</h1>
           <p class="main__text">
             Get your team in sync,np matter your location Streamlink processes,
             create team rituals, and watch productive soar
           </p>
           <button class="btn__learn">Learn more</button>
+          <div class="main__logos">
+            <img
+              class="main__logo"
+              src="./images/client-databiz.svg"
+              alt="Logo databiz"
+            />
+            <img
+              class="main__logo"
+              src="./images/client-audiophile.svg"
+              alt="Logo audiophile"
+            />
+            <img
+              class="main__logo"
+              src="./images/client-meet.svg"
+              alt="Logo meet"
+            /><img src="./images/client-maker.svg" alt="Logo Maker" />
+          </div>
         </div>
       </section>
-      <div class="container main__logos">
-        <img
-          class="main__logo"
-          src="./images/client-databiz.svg"
-          alt="Logo databiz"
-        />
-        <img
-          class="main__logo"
-          src="./images/client-audiophile.svg"
-          alt="Logo audiophile"
-        />
-        <img
-          class="main__logo"
-          src="./images/client-meet.svg"
-          alt="Logo meet"
-        /><img src="./images/client-maker.svg" alt="Logo Maker" />
-      </div>
     </main>
   </body>
 </html>
