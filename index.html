@@ -19,8 +19,20 @@
   </head>
   <body>
     <header class="container">
-      <nav>
-        <img src="./images/logo.svg" alt="Logo" />
+      <nav class="navigation">
+        <div class="navigation__container">
+          <img src="./images/logo.svg" alt="Logo" height="27px" />
+          <ul class="navigation__list">
+            <li class="navigation__list--item">Features</li>
+            <li class="navigation__list--item">Company</li>
+            <li class="navigation__list--item">Careers</li>
+            <li class="navigation__list--item">About</li>
+          </ul>
+        </div>
+        <div class="navigation__btn--container">
+          <bt>Login</bt>
+          <bt>Register</bt>
+        </div>
         <button class="btn__menu" type="submit">
           <img src="./images/icon-menu.svg" alt="" srcset="" />
         </button>
@@ -30,10 +42,7 @@
       <section class="main__section container">
         <div class="container">
           <picture>
-            <source
-              media="(min-width: 750px)"
-              srcset="./images/image-hero-desktop.png"
-            />
+            <source srcset="./images/image-hero-desktop.png" />
 
             <img
               class="main__image--desktop"
